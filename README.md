@@ -1,8 +1,6 @@
 # Rice WWI Project
 
-#### Building
-
-##### Unixlike
+### Building
 
 This projects Makefile assumes that you are using GCC/G++ as your C/C++ compiler
 
