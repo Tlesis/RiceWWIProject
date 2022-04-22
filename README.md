@@ -1,2 +1,2 @@
-# RiceWWIProject
-Ignore. Something quick I made for a school project
+# Rice WWI Project
+Ignore. Something I made for a school project
