@@ -19,7 +19,7 @@ main: Main.o Info.o
 
 # Removes Compiled files
 clean:
-	rm bin/$(NAME).out $(OBJDIR)/*.o
+	rm bin/$(NAME).out $(OBJDIR)/*.o $(OBJDIR)/keep
 
 # Compiles the project & runs the binary
 run: main
