@@ -5,7 +5,7 @@
 int main() {
     std::cout << "\nDate Style: Month dd, yyyy\n\n";
     // March 13, 1881 (Assassination of Alexander II)
-    // August 28, 1915 (Joining or WWI)
+    // August 28, 1915 (WWI)
     // March 16, 1917 (February Revolution)
     // November 7, 1917 (October Revolution)
     // March 3, 1918 (Treaty of Brest-Litovsk)
