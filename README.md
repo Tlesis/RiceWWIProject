@@ -1,12 +1,10 @@
 # Rice WWI Project
 
-#### Building
+### Building
 
-##### Unixlike
+This projects Makefile assumes that you are using GCC/G++ as your C/C++ compiler
 
-The this projects Makefile assumes that you are using GCC/G++ as your C/C++ compiler
-
-`$ git clone --recurse-submodules https://github.com/Tlesis/RiceWWIProject.git`\
+`$ git clone https://github.com/Tlesis/RiceWWIProject.git`\
 `$ make`
 
-The project binary, once built with `$ make`, can be found in `./bin/`.
+The project binary, once built with `make`, can be found in `./bin/`.
