@@ -3,12 +3,14 @@
 
 #define ERROR_UNPARSED_INT -1
 
+typedef unsigned long ulong;
+
 int parseInt(const std::string& str) {
 
     std::string temp;
-    const int arrSize = str.length();
+    const ulong arrSize = str.length();
 
-    for (int i = 0; i < arrSize; ++i) {
+    for (ulong i = 0; i < arrSize; ++i) {
         if (str[i] >= '0' && str[i] <= '9') {
             temp += str[i];
         } else if (str[i] == ',') {
