@@ -24,6 +24,7 @@ warn: Main.o_Warn Info.o_Warn
 
 # Removes Compiled files
 clean:
+	@echo Cleaning. . .
 	rm $(NAME).out *.o
 
 # Compiles the project & runs the binary
